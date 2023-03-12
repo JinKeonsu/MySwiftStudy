@@ -62,12 +62,14 @@ class ViewController: UIViewController {
     //MARK: - closure
     func closureTest() {
         
-        // trailing closure
+        // simple closure
         let greetUser = { (name: String) in
             print("Hey there, \(name)")
         }
-        
         greetUser("Jin")
+        
+        
+        // trailing closure
         
         
         print("closure test")
